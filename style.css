@@ -3,20 +3,28 @@ div.hero-container
     position:   relative;
     text-align: center;
     color:     white;
+    height:     400px;
+    overflow:   hidden;
+    z-index:    3;
 }
 
 img.hero-image
 {
-    width:  100%;
+    position:   relative;
+    width:      100%;
     object-fit: cover;
+    margin:     -450px 0px 0px 0px;
+    z-index:    1;
 }
 
 div.hero-message
 {
     position:       absolute;
     top:            50%;
-    left:           50%;
-    transform:      translate(-50%, -50%);
-    font-size:      5rem;
+    left:           25%;
+    transform:      translate(-15%, -50%);
+    font-size:      4rem;
     font-family:    "Times New Roman";
+    z-index:        2;
+    box-shadow: inset 0 0 0 350px rgba(0,0,0,.3);
 }
