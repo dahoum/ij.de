@@ -28,3 +28,9 @@ div.hero-message
     z-index:        2;
     box-shadow: inset 0 0 0 350px rgba(0,0,0,.3);
 }
+
+div.title
+{
+    font-size:      4rem;
+    font-family:    "Times New Roman";
+}
